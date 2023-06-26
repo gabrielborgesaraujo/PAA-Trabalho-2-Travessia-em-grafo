@@ -28,7 +28,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Tempo de execução (s)')
     plt.title('Tempo de execução do DFS')
-    plt.savefig('tempoExecucaoDFS.png')
+    plt.savefig('imagens/tempoExecucaoDFS.png')
     plt.close()
 
     # Gráfico de tempo de execução do BFS
@@ -37,7 +37,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Tempo de execução (s)')
     plt.title('Tempo de execução do BFS')
-    plt.savefig('tempoExecucaoBFS.png')
+    plt.savefig('imagens/tempoExecucaoBFS.png')
     plt.close()
 
     # Gráfico de tempo de execução dos Articulation Points
@@ -46,7 +46,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Tempo de execução (s)')
     plt.title('Tempo de execução dos Articulation Points')
-    plt.savefig('tempoExecucaoArticulationPoints.png')
+    plt.savefig('imagens/tempoExecucaoArticulationPoints.png')
     plt.close()
 
     # Gráfico de tempo de execução dos Strongly Connected Components
@@ -55,7 +55,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Tempo de execução (s)')
     plt.title('Tempo de execução dos Strongly Connected Components')
-    plt.savefig('tempoExecucaoStronglyConnectedComponents.png')
+    plt.savefig('imagens/tempoExecucaoStronglyConnectedComponents.png')
     plt.close()
 
     # Gráfico de comparações do DFS
@@ -64,7 +64,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de comparações')
     plt.title('Número de comparações do DFS')
-    plt.savefig('comparacoesDFS.png')
+    plt.savefig('imagens/comparacoesDFS.png')
     plt.close()
 
     # Gráfico de comparações do BFS
@@ -73,7 +73,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de comparações')
     plt.title('Número de comparações do BFS')
-    plt.savefig('comparacoesBFS.png')
+    plt.savefig('imagens/comparacoesBFS.png')
     plt.close()
 
     # Gráfico de comparações dos Articulation Points
@@ -82,7 +82,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de comparações')
     plt.title('Número de comparações dos Articulation Points')
-    plt.savefig('comparacoesArticulationPoints.png')
+    plt.savefig('imagens/comparacoesArticulationPoints.png')
     plt.close()
 
     # Gráfico de comparações dos Strongly Connected Components
@@ -91,7 +91,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de comparações')
     plt.title('Número de comparações dos Strongly Connected Components')
-    plt.savefig('comparacoesStronglyConnectedComponents.png')
+    plt.savefig('imagens/comparacoesStronglyConnectedComponents.png')
     plt.close()
 
     # Gráfico de trocas do DFS
@@ -100,7 +100,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de trocas')
     plt.title('Número de trocas do DFS')
-    plt.savefig('trocasDFS.png')
+    plt.savefig('imagens/trocasDFS.png')
     plt.close()
 
     # Gráfico de trocas do BFS
@@ -109,7 +109,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de trocas')
     plt.title('Número de trocas do BFS')
-    plt.savefig('trocasBFS.png')
+    plt.savefig('imagens/trocasBFS.png')
     plt.close()
 
     # Gráfico de trocas dos Articulation Points
@@ -118,7 +118,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de trocas')
     plt.title('Número de trocas dos Articulation Points')
-    plt.savefig('trocasArticulationPoints.png')
+    plt.savefig('imagens/trocasArticulationPoints.png')
     plt.close()
 
     # Gráfico de trocas dos Strongly Connected Components
@@ -127,7 +127,7 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de trocas')
     plt.title('Número de trocas dos Strongly Connected Components')
-    plt.savefig('trocasStronglyConnectedComponents.png')
+    plt.savefig('imagens/trocasStronglyConnectedComponents.png')
     plt.close()
 
     # Gráfico de número de arestas
@@ -136,6 +136,6 @@ def generate_plots(data_list: list[Dados]):
     plt.xlabel('Número de vértices')
     plt.ylabel('Número de arestas')
     plt.title('Número de arestas')
-    plt.savefig('numeroArestas.png')
+    plt.savefig('imagens/numeroArestas.png')
     plt.close()
 
