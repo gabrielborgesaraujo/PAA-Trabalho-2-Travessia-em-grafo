@@ -5,6 +5,8 @@ import threading
 import sys
 from classDados import Dados
 from classGraph import Graph
+from geraGraficos import generate_plots
+
 sys.setrecursionlimit(500000)
 
 
@@ -65,7 +67,7 @@ threads = []
 
 allGrafos = []
 
-tamanhos = [10000,20000,30000,40000,50000,60000,70000,80000,90000,100000]
+tamanhos = [1000,2000,3000,4000,5000,6000,7000,8000,9000,10000]
 
 
 for tamanho in tamanhos:
@@ -89,4 +91,6 @@ array_dicionario = [obj.to_dic() for obj in dadosGrafos]
 with open('objetos.json', 'w') as arquivo_json:
     json.dump(array_dicionario, arquivo_json)
     
+
+generate_plots(dadosGrafos)
     
